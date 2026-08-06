@@ -42,7 +42,7 @@ export default function LowAlert() {
   useEffect(() => {
     fetchProducts();
 
-    document.title = "Low Stock Alert - POS System";
+    document.title = "Low Stock Alert - POS System ";
   }, []);
   return (
     <div>
