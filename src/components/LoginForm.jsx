@@ -78,9 +78,9 @@ function LoginForm() {
     <div className="bg-linear-to-r from-blue-700 to-fuchsia-500 min-h-screen">
       {loading ? (
         <div className="h-screen flex items-center justify-center">
-          <button type="button" class="bg-indigo-500 ..." disabled>
+          <button type="button" class="bg-indigo-500 text-white" disabled>
             <div
-              class="mr-3 size-5 rounded-full border-2 border-t-blue-500  animate-spin"
+              class="mr-3 size-5 rounded-full border-2 border-t-blue-500 inline  animate-spin"
               viewBox="0 0 24 24"
             ></div>
             Processing…
