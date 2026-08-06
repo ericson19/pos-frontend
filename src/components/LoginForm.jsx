@@ -78,7 +78,10 @@ function LoginForm() {
     <div className="bg-linear-to-r from-blue-700 to-fuchsia-500 min-h-screen">
       {loading ? (
         <div className="h-screen flex items-center justify-center">
-          Loading Login
+          <button type="button" class="bg-indigo-500 ..." disabled>
+            <svg class="mr-3 size-5 animate-spin ..." viewBox="0 0 24 24"></svg>
+            Processing…
+          </button>
         </div>
       ) : (
         <div className="grid grid-cols-1 lg:grid-cols-2 px-5 md:px-50 py-5">
