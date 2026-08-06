@@ -79,7 +79,10 @@ function LoginForm() {
       {loading ? (
         <div className="h-screen flex items-center justify-center">
           <button type="button" class="bg-indigo-500 ..." disabled>
-            <svg class="mr-3 size-5 animate-spin ..." viewBox="0 0 24 24"></svg>
+            <div
+              class="mr-3 size-5 rounded-full border-2 border-t-blue-500  animate-spin"
+              viewBox="0 0 24 24"
+            ></div>
             Processing…
           </button>
         </div>
