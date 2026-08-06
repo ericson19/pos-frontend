@@ -136,7 +136,7 @@ function LoginForm() {
               </select>
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-blue-700 to-fuchsia-600 text-white p-2 rounded"
+                className="w-full bg-linear-to-r from-blue-700 to-fuchsia-600 text-white p-2 rounded"
               >
                 Login
               </button>
