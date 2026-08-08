@@ -614,7 +614,7 @@ function Pos() {
                 <h3 className="text-center font-bold mb-10">Cart Items</h3>
                 <div className="flex justify-between px-4">
                   <h4>Ordered Items</h4>
-                  <span>05</span>
+                  <span>{products.length}</span>
                 </div>
                 <hr />
                 <div>
